@@ -135,7 +135,13 @@
             />
             <div class="card-block">
               <h3 class="card-title">Donut apple!</h3>
-              <p>Jelly beans candy cake tiramisu.</p>
+              <p>
+                Jelly beans
+                <span data-toggle="tooltip" title="yummy!" class="text-info"
+                  >candy</span
+                >
+                cake tiramisu.
+              </p>
             </div>
           </div>
         </div>
@@ -149,7 +155,17 @@
             />
             <div class="card-block">
               <h3 class="card-title">Donut apple!</h3>
-              <p>Jelly beans candy cake tiramisu.</p>
+              <p>
+                Jelly beans candy cake
+                <span
+                  data-toggle="tooltip"
+                  title="Not so yummy. :("
+                  class="text-info"
+                  data-placement="bottom"
+                >
+                  tiramisu.</span
+                >
+              </p>
             </div>
           </div>
         </div>
@@ -210,5 +226,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
