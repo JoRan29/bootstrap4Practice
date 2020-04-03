@@ -37,4 +37,12 @@ body {
   padding: 4px;
   font-size: 20px;
 }
+
+#explore-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
