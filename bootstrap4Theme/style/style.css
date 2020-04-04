@@ -38,11 +38,20 @@ body {
   font-size: 20px;
 }
 
-#explore-section .fa {
+#explore-section .fa, #create-section .fa, #share-section .fa {
   color: #fff;
   background: #333;
   padding: 4px;
   border-radius: 5px;
   font-size: 20px;
+}
+
+#create-section .fa {
+  background: #fff;
+  color: #008ed6;
+}
+
+#share-section .fa {
+  background: #008ed6;
 }
 /*# sourceMappingURL=style.css.map */

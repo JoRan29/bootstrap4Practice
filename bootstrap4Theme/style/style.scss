@@ -53,3 +53,18 @@ body {
     font-size: $icon-size;
   }
 }
+
+#create-section {
+  @extend #explore-section;
+  .fa {
+    background: #fff;
+    color: #008ed6;
+  }
+}
+
+#share-section {
+  @extend #explore-section;
+  .fa {
+    background: #008ed6;
+  }
+}
